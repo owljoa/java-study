@@ -2,7 +2,12 @@
 <module type="JAVA_MODULE" version="4">
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
-    <content url="file://$MODULE_DIR$" />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/completable-future/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/completable-future/build" />
+      <excludeFolder url="file://$MODULE_DIR$/future/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/future/build" />
+    </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
